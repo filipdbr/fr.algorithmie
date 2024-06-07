@@ -21,10 +21,12 @@ public class Rotation {
 
         int[] tableau = {0, 1, 2, 3, 4, 5};
 
+        // j'utilise la foncition
         rotationDroite(tableau);
 
+        //print
         for (int number : tableau) {
-            System.out.print(number);
+            System.out.print(number + " ");
         }
 
     }
